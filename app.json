@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Cuenta-$$$",
+    "name": "Cuenta Billetes",
     "slug": "calculadora-billetes",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Cuenta$.png",
+    "icon": "./assets/Icono.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/Cuenta$.png",
+      "image": "./assets/Icono.png.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Cuenta$.png",
+        "foregroundImage": "./assets/Icono.png.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.germanolivera.calculadorabilletes"
     },
     "web": {
-      "favicon": "./assets/Cuenta$.png"
+      "favicon": "./assets/Icono.png.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3caed85f-6a01-4050-a1c9-0883edbd4e16"
+      }
     }
   }
 }
