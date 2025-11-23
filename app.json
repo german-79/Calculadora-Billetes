@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/Icono.png.png",
+      "image": "./assets/Icono.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,14 +17,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Icono.png.png",
+        "foregroundImage": "./assets/Icono.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.germanolivera.calculadorabilletes"
     },
     "web": {
-      "favicon": "./assets/Icono.png.png"
+      "favicon": "./assets/Icono.png"
     },
     "extra": {
       "eas": {
